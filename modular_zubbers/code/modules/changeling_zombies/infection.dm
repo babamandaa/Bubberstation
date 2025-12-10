@@ -269,9 +269,7 @@ GLOBAL_VAR_INIT(changeling_zombies_detected,FALSE)
 				if(chosen_turf)
 					GLOB.changeling_zombies_detected = TRUE
 					priority_announce(
-						"Notice: A stolen prototype bioweapon has fallen out of a neighboring bluespace convoy to [station_name()]. Instructions have been delivered to [chosen_turf.loc]. In the event of open wound exposure to CLASSIFIED REAGENT, please rem*%fj00)`5vc-BZZT
-
-burn our bodies",
+						"Notice: A stolen prototype bioweapon has fallen out of a neighboring bluespace convoy to [station_name()]. Instructions have been delivered to [chosen_turf.loc]. In the event of open wound exposure to CLASSIFIED REAGENT, please rem*%fj00)`5vc-BZZT														burn our bodies",
 						"Classified Alert",
 						ANNOUNCER_KLAXON
 					)
@@ -367,6 +365,6 @@ burn our bodies",
 				continue
 			message = "[message][word]... "
 			if(prob(10))
-				message = "[message][prob(1) ? "BE CONSUMED (NON-SEXUALLY, THOUGH) " : pick(random_mumblings)]! "
+				message = "[message][prob(1) ? "BE CONSUMED" : pick(random_mumblings)]! "
 
 		speech_args[SPEECH_MESSAGE] = trim(message)
