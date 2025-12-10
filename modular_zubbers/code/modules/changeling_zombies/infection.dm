@@ -269,7 +269,7 @@ GLOBAL_VAR_INIT(changeling_zombies_detected,FALSE)
 				if(chosen_turf)
 					GLOB.changeling_zombies_detected = TRUE
 					priority_announce(
-						"Notice: A stolen prototype bioweapon has fallen out of a neighboring bluespace convoy to [station_name()]. Instructions have been delivered to [chosen_turf.loc]. In the event of open wound exposure to CLASSIFIED REAGENT, please rem*%fj00)`5vc-BZZT														burn our bodies",
+						"Notice: A stolen prototype bioweapon has fallen out of a neighboring bluespace convoy to [station_name()]. Instructions have been delivered to [chosen_turf.loc]. In the event of open wound exposure to CLASSIFIED REAGENT, please rem*%fj00)`5vc-BZZT									 							 			burn our bodies																									",
 						"Classified Alert",
 						ANNOUNCER_KLAXON
 					)
